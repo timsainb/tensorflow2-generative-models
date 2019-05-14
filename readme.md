@@ -45,7 +45,7 @@ GAIA is an autoencoder trained to learn convex latent representations by adversa
 
 ## Other Notebooks:
 
-### Seq2Seq Autoencoder (without attention) (Fasion MNIST: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/timsainb/tensorflow2-generative-models/blob/master/6.0-VAE-GAN-fashion-mnist.ipynb) | NSYNTH: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/timsainb/tensorflow2-generative-models/blob/master/9.0-seq2seq-NSYNTH.ipynb))
+### Seq2Seq Autoencoder (without attention) (Fasion MNIST: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/timsainb/tensorflow2-generative-models/blob/master/4.0-seq2seq-fashion-mnist.ipynb) | NSYNTH: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/timsainb/tensorflow2-generative-models/blob/master/9.0-seq2seq-NSYNTH.ipynb))
 
 Seq2Seq models use recurrent neural network cells (like LSTMs) to better capture sequential organization in data. This implementation uses Convolutional Layers as input to the LSTM cells, and a single Bidirectional LSTM layer. 
 
