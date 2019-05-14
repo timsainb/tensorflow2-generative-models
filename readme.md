@@ -1,4 +1,4 @@
-Generative models in Tensorflow 2.X
+Generative models in Tensorflow 2
 ==============================
 
 [Tim Sainburg](https://timsainburg.com/) (PhD Candidate, UCSD, Gentner Laboratory)
