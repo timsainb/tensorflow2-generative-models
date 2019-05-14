@@ -1,3 +1,5 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/timsainb/tensorflow2-generative-models/master)
+
 Generative models in Tensorflow 2
 ==============================
 
