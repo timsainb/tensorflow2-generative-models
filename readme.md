@@ -30,7 +30,11 @@ WGAN-GP is a GAN that improves over the original loss function to improve traini
 
 ![wgan gp](imgs/gan.png)
 
+<<<<<<< HEAD
 ### VAE-GAN ([article](https://arxiv.org/abs/1512.09300)) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/timsainb/tensorflow2-generative-models/blob/master/6.0-VAE-GAN-fashion-mnist.ipynb)
+=======
+### VAE-GAN ([article](https://arxiv.org/abs/1512.09300)) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/timsainb/tensorflow2-generative-models/blob/master/4.0-seq2seq-fashion-mnist.ipynb)
+>>>>>>> master
 
 VAE-GAN combines the VAE and GAN to autoencode over a latent representation of data in the generator to improve over the pixelwise error function used in autoencoders. 
 
