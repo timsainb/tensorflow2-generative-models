@@ -1,0 +1,7 @@
+numpy
+matplotlib
+soundfile
+tqdm
+pandas
+tf-nightly-gpu-2.0-preview==2.0.0.dev20190513
+tfp-nightly==0.7.0.dev20190508
