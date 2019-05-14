@@ -3,7 +3,7 @@ Generative models in Tensorflow 2
 
 [Tim Sainburg](https://timsainburg.com/) (PhD Candidate, UCSD, Gentner Laboratory)
 
-This is a small project to implement a number of generative models in Tensorflow 2. Layers and optimizers use Keras. The models are implemented for two datasets: [fashion MNIST](https://github.com/zalandoresearch/fashion-mnist), and [NSYNTH](https://magenta.tensorflow.org/datasets/nsynth). Networks were written with the goal of being as simple and consistent as possible while still being readable. 
+This is a small project to implement a number of generative models in Tensorflow 2. Layers and optimizers use Keras. The models are implemented for two datasets: [fashion MNIST](https://github.com/zalandoresearch/fashion-mnist), and [NSYNTH](https://magenta.tensorflow.org/datasets/nsynth). Networks were written with the goal of being as simple and consistent as possible while still being readable. Because each network is self contained within the notebook, they should be easily run in a colab session. 
 
 ## Included models:
 ### Autoencoder (AE) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/timsainb/tensorflow2-generative-models/blob/master/0.0-Autoencoder-fashion-mnist.ipynb)
@@ -20,7 +20,7 @@ The original variational autoencoder network,  using [tensorflow_probability](ht
 
 ### Generative Adversarial Network (GAN) ([article](https://arxiv.org/abs/1406.2661)) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/timsainb/tensorflow2-generative-models/blob/master/2.0-GAN-fashion-mnist.ipynb)
 
-GANs are a form of neural network in which two sub-networks (the encoder and decoder) are trained on opposing loss functions: an encoder that is trained to produce data which is indiscernable from the true data, and a decoder that is trained to discern between the data and generated data.
+GANs are a form of neural network in which two sub-networks (the encoder and decoder) are trained on opposing loss functions: an encoder that is trained to produce data which is indiscernable from the true data, and a decoder that is trained to discriminate between the data and generated data.
 
 ![gan](imgs/gan.png)
 
@@ -51,9 +51,9 @@ Seq2Seq models use recurrent neural network cells (like LSTMs) to better capture
 
 ![a seq2seq bidirectional lstm in tensorflow 2.0](imgs/seq2seq.png)
 
-### Spectrogramming, Mel Scaling, and Inversion in Tensorflow [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/timsainb/tensorflow2-generative-models/blob/master/7.0-Tensorflow-spectrograms-and-inversion.ipynb)
+### Spectrogramming, Mel Scaling, MFCCs, and Inversion in Tensorflow [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/timsainb/tensorflow2-generative-models/blob/master/7.0-Tensorflow-spectrograms-and-inversion.ipynb)
 
-Tensorflow as a signal processing package that allows us to generate spectrograms from waveforms in numpy. This notebook can serve as background for the Iterator for Nsynth notebook, or for any other spectrogram inversion in Tensorflow project. Spectrogram inversion is done using the Griffin-Lim algorithm. 
+Tensorflow has a signal processing package that allows us to generate spectrograms from waveforms as part of our dataset iterator, rather than pregenerating a second spectrogram dataset. This notebook can serve as a reference for how this is done. Spectrogram inversion is done using the Griffin-Lim algorithm. 
 
 ![spectrogram inversion in tensorflow 2.0](imgs/spectrogram-inversion.png)
 
