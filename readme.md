@@ -41,7 +41,7 @@ VAE-GAN combines the VAE and GAN to autoencode over a latent representation of d
 
 ### Generative adversarial interpolative autoencoder (GAIA) ([article](https://arxiv.org/abs/1807.06650)) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/timsainb/tensorflow2-generative-models/blob/master/5.0-GAIA-fashion-mnist.ipynb)
 
-GAIA is an autoencoder trained to learn convex latent representations by adversarially training on interpolations in latent space projections of real data. 
+GAIA is an autoencoder trained to learn convex latent representations by adversarially training on interpolations in latent space projections of real data. This is an experimental modification of the original algorithm. For the original algorithm, see here: https://github.com/timsainb/gaia
 
 ![generative adversarial interpolative autoencoding network](imgs/gaia.png)
 
